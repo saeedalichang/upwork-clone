@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+nav ul {
+    float: left;
+    margin-left: 30px;
+    padding-top: 5PX;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul a {
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+a.active,
+a:hover {
+    background: #04d638;
+    transition: 1s;
+
+}
+
+img {
+    height: 90px;
+    float: left;
+    padding-left: 20px;
+}
+
+input {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 10px;
+    width: 300PX;
+    border-right-width: 0;
+}
+
+.Talent {
+    border-left-width: 0;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    margin-left: -65px;
+}
+
+.login {
+    border-style: none;
+    border-width: 1px;
+    border-radius: 20px;
+    height: 35px;
+    width: 50;
+    background-color: white;
+
+}
+
+.Sign {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    height: 35px;
+    width: 60;
+    background-color: rgb(64, 194, 12);
+    color: white;
+}
+
+.Sign:hover {
+    color: #000;
+    background-color: lightgreen;
+}
+
+ul :hover {
+    background-color: white;
+    color: #04d638;
+    animation: -0s;
+}
+
+.Main ul li {
+    display: inline;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+}
+
+.Main ul li a {
+    color: #000;
+}
+
+.Main ul li :hover {
+    background-color: white;
+    color: #04d638;
+    transition: 1s;
+}
+
+.seconddropdown option {
+    border-radius: 25px;
+}
+
+.mainheading {
+    font-size: 80;
+    padding-left: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #04b430;
+}
+
+.subtitle {
+    font-size: 30;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    color: gray;
+}
+
+.maintwo {
+    display: inline;
+}
+
+.maintwo img {
+    margin-top: -300;
+    float: right;
+    width: 500;
+    height: 300px;
+    padding-right: 20px;
+}
+
+.seconddropdown {
+border: none;
+    font-size: larger;
+    margin-right: 300;
+}
+.getstarted{
+border-radius: 20px;
+border-color: #04b430;
+background-color: #04b430;
+border-width: 1px;
+margin-left: 50px;
+width: 100;
+height: 45;
+margin-top: 20px;
+font: 1em sans-serif;
+}
+.getstarted:hover{
+    color: white;
+    background-color: #04d638;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+animation: normal;
+}
+h3{
+    color: gray;
+    padding-left: 30px;
+}
+.images img{
+    height: 50;
+    margin-top: 20;
+    float: left;
+    display: inline;
+}
